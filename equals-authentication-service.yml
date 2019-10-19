@@ -1,0 +1,14 @@
+jwt:
+  secret: matheus-tutorial-auth-server-equals
+  expiration-time: 18000
+
+spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+
+## PostgreSQL
+    url: jdbc:postgresql://localhost:5434/postgres
+    username: postgres
+    password: a88384718
