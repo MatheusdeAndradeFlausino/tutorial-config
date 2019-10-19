@@ -14,7 +14,7 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 zuul:
-  ignored-service: *
+  ignored-service: "*"
   routes:
     auth-service.path: /auth/**
     auth-service.service-id: equals-authentication-service
