@@ -7,9 +7,7 @@ spring:
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 5
-
-## PostgreSQL
-    url: jdbc:postgresql://localhost:5434/postgres
+    url: jdbc:postgresql://localhost:5434/auth_tutorial
     username: postgres
     password: a88384718
 
